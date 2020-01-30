@@ -4,6 +4,3 @@ class BST{
 		virtual void preOrderTraversal()=0;
 		virtual void search(int data)=0;
 };
-
-//hello world Fudii
-
