@@ -95,22 +95,6 @@ bool ArrayBST::search(int key){
 	
 	}
 	
-	
-	//preOrder traversal
-	
-/*void ArrayBST::preOrderTraversal(int currentIndex){
-	
-	
-	if(element[currentIndex]!=NULL)
-    {	
-       	cout<<element[currentIndex]<<endl;
-        preOrderTraversal(getLeftChild(currentIndex));
-        preOrderTraversal(getRightChild(currentIndex));
-		}
-	
-} */
-
-
 void ArrayBST::preOrderTraversal(int currentIndex) {
     if((currentIndex >= 0) && (element[currentIndex] != NULL)){
     	
