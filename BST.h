@@ -7,7 +7,7 @@ class BST{
 		virtual void preOrderTraversal(int index)=0;
 		virtual bool search(int data)=0;
 		virtual int min()=0;
-		//change garera push gareko
+		//change garera push gareko feri hai feri
 		virtual int max()=0;
 
 };
