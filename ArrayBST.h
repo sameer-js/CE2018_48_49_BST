@@ -14,4 +14,6 @@ class ArrayBST : public BST {
 	bool search(int key);
 	int getLeftChild(int currentIndex);
 	int getRightChild(int currentIndex);
+	int min();
+	int max();
 };

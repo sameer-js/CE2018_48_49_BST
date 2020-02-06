@@ -106,7 +106,27 @@ void ArrayBST::preOrderTraversal(int currentIndex) {
     }
 }
 
+int ArrayBST::min(){
+	int currentIndex=0;
+	while(element[getLeftChild(currentIndex)]!=NULL){
+	//	currentIndex = getLeftChild(currentIndex);
+		currentIndex = 2*currentIndex+1;
+		
 
+	}
+		return (element[currentIndex]);	
+}
+
+
+int ArrayBST::max(){
+	int currentIndex=0;
+	while(element[getRightChild(currentIndex)]!=NULL){
+		currentIndex = 2*currentIndex+2;
+		
+
+	}
+		return (element[currentIndex]);	
+}
 
 ArrayBST::~ArrayBST(){}
 int main(){
@@ -119,6 +139,7 @@ int main(){
 	a.search(7);
 	cout<<"Pre order Traversal:"<<endl;
 	a.preOrderTraversal(0);
-	
+	cout<<endl<<"Minm element is:" << a.min();
+	cout<<endl<<"Maxm element is:" << a.max();
 	return 0;
 }
