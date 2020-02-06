@@ -8,6 +8,8 @@ class BST{
 		virtual bool search(int data)=0;
 		virtual int min()=0;
 		//change garera push gareko
+		virtual int max()=0;
+
 };
 
 #endif
