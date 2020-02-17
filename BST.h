@@ -17,5 +17,4 @@ class BST{
 		virtual void deleteKey(int key)=0;
 	
 };
-
 #endif
